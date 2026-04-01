@@ -2,7 +2,7 @@
 
 This project focuses on building a machine learning model to classify whether a tumor is **benign** or **malignant** based on medical diagnostic features.
 
-It demonstrates the complete ML pipeline including data preprocessing, exploratory data analysis (EDA), model training, and evaluation.
+It demonstrates a complete ML pipeline including data preprocessing, exploratory data analysis (EDA), model training, and evaluation.
 
 ---
 
@@ -15,7 +15,7 @@ To develop an accurate and reliable classification model that can assist in earl
 ## 📊 Dataset
 
 * Breast Cancer Wisconsin Dataset
-* Contains features computed from digitized images of breast mass
+* Features are computed from digitized images of breast mass
 * Target variable:
 
   * **0 → Malignant**
@@ -49,15 +49,16 @@ To develop an accurate and reliable classification model that can assist in earl
 2. Perform data cleaning
 3. Conduct exploratory data analysis
 4. Split dataset into training & testing sets
-5. Train machine learning models
+5. Train machine learning model
 6. Evaluate model performance
 7. Visualize results
 
 ---
 
-## 📈 Models Used
+## 📈 Model Used
 
 * Logistic Regression
+
 ---
 
 ## 📊 Evaluation Metrics
@@ -70,15 +71,24 @@ To develop an accurate and reliable classification model that can assist in earl
 
 ## ▶️ How to Run
 
+### Option 1: Run on Google Colab (Recommended)
+
+This project was developed using **Google Colab**, so no local setup is required.
+
+1. Open the notebook in Google Colab
+2. Upload dataset
+3. Run all cells
+
+---
+
+### Option 2: Run Locally (Optional)
+
 ```bash
 # Clone the repository
 git clone https://github.com/Saumya-eng/breast-cancer-classification.git
 
 # Navigate to project folder
 cd breast-cancer-classification
-
-# Install dependencies
-pip install -r requirements.txt
 
 # Run Jupyter Notebook
 jupyter notebook
@@ -91,8 +101,7 @@ jupyter notebook
 ```
 breast-cancer-classification/
 │
-├── notebook.ipynb
-├── requirements.txt
+├── breast_cancer_classification.ipynb
 ├── README.md
 │
 ├── data
@@ -104,7 +113,7 @@ breast-cancer-classification/
 
 * Feature scaling significantly improves model performance
 * Some features show strong correlation with diagnosis
-* Simple models like Logistic Regression can perform well on this dataset
+* Logistic Regression performs effectively on this dataset
 
 ---
 
@@ -133,3 +142,4 @@ B.Tech CSE (AI/ML)
 ## ⭐ Support
 
 If you found this project useful, consider giving it a star ⭐
+
